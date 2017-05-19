@@ -1,0 +1,17 @@
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\USART_STM32F10x.c
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\USART_STM32F10x.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+.\objects\usart_stm32f10x.o: .\RTE\_Main\RTE_Components.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\GPIO_STM32F10x.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\DMA_STM32F10x.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_USART.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_Common.h
+.\objects\usart_stm32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\usart_stm32f10x.o: .\RTE\Device\STM32F103ZE\RTE_Device.h

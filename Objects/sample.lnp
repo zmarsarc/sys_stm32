@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\usart.o"
+".\objects\dependent_io.o"
+".\objects\irq_cm3.o"
+".\objects\rtx_delay.o"
+".\objects\rtx_evflags.o"
+".\objects\rtx_evr.o"
+".\objects\rtx_kernel.o"
+".\objects\rtx_lib.o"
+".\objects\rtx_memory.o"
+".\objects\rtx_mempool.o"
+".\objects\rtx_msgqueue.o"
+".\objects\rtx_mutex.o"
+".\objects\rtx_semaphore.o"
+".\objects\rtx_system.o"
+".\objects\rtx_thread.o"
+".\objects\rtx_timer.o"
+".\objects\rtx_config.o"
+".\objects\usart_stm32f10x.o"
+".\objects\retarget_io.o"
+".\objects\dma_stm32f10x.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\system_stm32f10x.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\sample.map" -o .\Objects\sample.axf
