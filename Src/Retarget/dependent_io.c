@@ -51,7 +51,7 @@ static struct __io_buffer __out_buffer = {__DEVICE_OUT_BUFFER, BUFFER_SIZE, 0, 0
 
 
 /**
-    define device io methods
+    define system device io methods
 */
 
 static void __device_stdio_callback(uint32_t event) {
