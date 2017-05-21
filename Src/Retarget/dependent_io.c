@@ -154,6 +154,8 @@ int32_t sys_stdio_manage_init(void) { /*
     
     Initlialize IO events and IO manage thread
     
+    Called after okKernelInitialize
+    
 */  
     __sys_stdio_flags = osEventFlagsNew(NULL);
     if (!__sys_stdio_flags) {
