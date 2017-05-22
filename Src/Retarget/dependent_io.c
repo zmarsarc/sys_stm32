@@ -321,6 +321,14 @@ int __backspace(FILE *stream) { /*
     The value return ed by __backsapce is either 0(success) or EOF(failure).
     It returns EOF only if used incorrectly.
 */
+    if (stream->handle != stdin->handle) {
+        return EOF;
+    }
     
+    if (__in_buffer.flags | BUFFER_ERROR) return EOF;
+    
+    if (__in_buffer.pos == __in_buffer.end) return EOF;
+    
+    __in_buffer.pos = (__in_buffer.pos + __in_buffer.size - 1) % __in_buffer.size;
     return (0);
 }

@@ -7,8 +7,8 @@
 int main(void) {
     SystemInit();
     SystemCoreClockUpdate();
-    
-    osKernelInitialize();
 
+    osKernelInitialize();
+    
     osKernelStart();
 }
